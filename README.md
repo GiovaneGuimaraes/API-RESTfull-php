@@ -1,4 +1,7 @@
 # API de uma livraria em php utilizando o método Restfull
+Projeto feito para estudo
+redes: www.linkedin.com/in/giovane-guimar%C3%A3es-a06683211/
+
 
   Trata-se de um sistema em PHP que implementa uma API RESTful para uma aplicação de livraria, esses códigos fornecem uma estrutura básica que permite a manipulação de autores e livros em uma livraria por meio de solicitações HTTP aos endpoints correspondentes.
   'o foco principal não é o embelezamento do site, mas sim, sua aplicação no backend'
@@ -29,5 +32,15 @@ No geral, esses códigos permitem que o usuário pesquise livros por ano, autor 
   ![6](https://github.com/GiovaneGuimaraes/API-php-metodoRestfull/assets/133304083/bd6e6556-edb6-466e-8ea7-8057eab09143)
 
   trata-se do arquivo 'cadastrarLivro.php que mostra uma página de cadastro de livro, em que os usuários podem inserir o nome de um livro, genero, ano de publicação e escolher o autor(já cadastrado) do livro. Com isso, no código Livro.php verifica-se se os campos estão vazios ou incorretos, caso não estejam, ele efetua a inserção no banco de dados por meio do método POST '("INSERT INTO livro(nomelivro,genero,ano,idPessoa) VALUES (:nomeLivro, :generoLivro, :anoLivro, :idAutor)")'
+
+  Na parte de listar autores e livros, os arquivos 'listarautores.php' e 'listarlivros.php' mostram uma tabela com todos os autores/livros com opção de editar ou excluir o autor/livro selecionado. 
+  
+![7](https://github.com/GiovaneGuimaraes/API-php-metodoRestfull/assets/133304083/e74164c9-6a75-40ae-ad18-241a8148759e)
+
+![8](https://github.com/GiovaneGuimaraes/API-php-metodoRestfull/assets/133304083/7f1c8fd1-9f91-40e0-a724-1efe5cf2208e)
+
+Ao clicar no botão EDITAR ele redireciona para um novo formulário já preenchido com os dados do livro ou autor escolhido e apartir do método POST ele atualiza o autor/livro no banco de dados, consequentemente no site todo também. ex autor: ("UPDATE autor SET nome=? WHERE id=?").
+Ao clicar no botão DELETAR ele chama a função de deletar tanto do Livro.php ou de Autor.php e exclui direto do banco de dados, sem precisar redirecionar para outra página, ("DELETE FROM autor WHERE id = ?").
+
 
  
