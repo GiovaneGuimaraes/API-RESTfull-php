@@ -5,6 +5,7 @@
   
 ![1](https://github.com/GiovaneGuimaraes/API-php-metodoRestfull/assets/133304083/5b27050f-a5f0-46f1-b62a-fe7f70a62c72)
 
-  A primeira imagem trata-se da cara do site, mostrando que é permitido fazer a busca de livros, autores específicos, e também a busca de livros a partir de um ano de publicação. Utilizam os arquivos 'buscarPorAno' , 'buscarPorAutor' e 'buscarPorGenero':
+  A primeira imagem trata-se da cara do site, mostrando que é permitido fazer a busca de livros, autores específicos, e também a busca de livros a partir de um ano de publicação. Utilizam os arquivos 'buscarPorAno' , 'buscarPorAutor' e 'buscarPorGenero': 
+- Ao enviar o formulário de 'Busca por ano' ele chama o arquivo buscarPorAno.php que é uma página HTML que contém uma tabela com a lista de livros de um determinado ano. Ele começa importando a classe "Livro.php" que contém as funcionalidades relacionadas aos livros. Em seguida, ele verifica se o parâmetro "anobusca" foi enviado por meio de um formulário e se não está vazio. Caso esteja vazio, exibe a mensagem "Inválido" e encerra a execução.
   
-
+![2](https://github.com/GiovaneGuimaraes/API-php-metodoRestfull/assets/133304083/536bdabe-11d3-4d5d-8753-139f5aa0b3dd)
