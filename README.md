@@ -19,3 +19,15 @@
 ![4](https://github.com/GiovaneGuimaraes/API-php-metodoRestfull/assets/133304083/049b30da-a2ec-45ca-b387-1a3426f6dd31)
 
 No geral, esses códigos permitem que o usuário pesquise livros por ano, autor ou gênero, e exibem os resultados em uma tabela na página HTML.
+
+  Na parte de cadastro de autores: 
+ ![5](https://github.com/GiovaneGuimaraes/API-php-metodoRestfull/assets/133304083/e9f65f27-aea2-434d-87d8-3c352320f174)
+ 
+ trata-se do arquivo 'cadastrarAutor.php' que mostra uma página de cadastro de autor, em que os usuários podem inserir o nome de um autor e enviá-lo para o servidor para ser processado e armazenado em um banco de dados. utiliza o método POST para realizar a inserção no BD '("INSERT INTO autor(nome) VALUES (?)")'
+
+  Na parte de cadastro de livros: 
+  ![6](https://github.com/GiovaneGuimaraes/API-php-metodoRestfull/assets/133304083/bd6e6556-edb6-466e-8ea7-8057eab09143)
+
+  trata-se do arquivo 'cadastrarLivro.php que mostra uma página de cadastro de livro, em que os usuários podem inserir o nome de um livro, genero, ano de publicação e escolher o autor(já cadastrado) do livro. Com isso, no código Livro.php verifica-se se os campos estão vazios ou incorretos, caso não estejam, ele efetua a inserção no banco de dados por meio do método POST '("INSERT INTO livro(nomelivro,genero,ano,idPessoa) VALUES (:nomeLivro, :generoLivro, :anoLivro, :idAutor)")'
+
+ 
