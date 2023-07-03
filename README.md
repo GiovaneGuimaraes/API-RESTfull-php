@@ -14,3 +14,8 @@
   
 ![3](https://github.com/GiovaneGuimaraes/API-php-metodoRestfull/assets/133304083/a936dda5-33ab-4040-ac25-51ebad9b8efb)
 
+- Ao enviar o formulário de 'Busca por genero' ele chama o arquivo 'buscarPorGenero.php' que também é semelhante aos códigos anteriores. Ele importa a classe "Livro.php" e realiza a busca de livros por gênero. O parâmetro "generobusca" é verificado para garantir que não esteja vazio, e em seguida, os livros correspondentes ao gênero são listados em uma tabela.
+  
+![4](https://github.com/GiovaneGuimaraes/API-php-metodoRestfull/assets/133304083/049b30da-a2ec-45ca-b387-1a3426f6dd31)
+
+No geral, esses códigos permitem que o usuário pesquise livros por ano, autor ou gênero, e exibem os resultados em uma tabela na página HTML.
