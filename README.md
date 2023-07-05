@@ -4,7 +4,7 @@ Projeto feito para estudo
 redes: www.linkedin.com/in/giovane-guimar%C3%A3es-a06683211/
 
 
-  Trata-se de um sistema em PHP que implementa uma API RESTful para uma aplicação de livraria, esses códigos fornecem uma estrutura básica que permite a manipulação de autores e livros em uma livraria por meio de solicitações HTTP aos endpoints correspondentes.
+  Trata-se de um sistema em PHP que implementa uma API RESTfull para uma aplicação de livraria, esses códigos fornecem uma estrutura básica que permite a manipulação de autores e livros em uma livraria por meio de solicitações HTTP aos endpoints correspondentes.
   'o foco principal não é o embelezamento do site, mas sim, sua aplicação no backend'
   
 ![1](https://github.com/GiovaneGuimaraes/API-php-metodoRestfull/assets/133304083/5b27050f-a5f0-46f1-b62a-fe7f70a62c72)
