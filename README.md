@@ -1,5 +1,6 @@
 # API de uma livraria em php utilizando o método Restfull
 Projeto feito para estudo
+
 redes: www.linkedin.com/in/giovane-guimar%C3%A3es-a06683211/
 
 
